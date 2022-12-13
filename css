@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(46, 34, 119);
+  --primary-color-darker: rgb(25, 29, 82);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  height: auto;  
+  max-width: 640px;
+  margin: 50px auto;
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+.flex-container > div{
+    align-items: baseline;
+}
+
+#leftBox{
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: rgb(23, 13, 80);
+    border-style: outset;
+    border-color: rgba(97, 97, 199, 0.664);
+    box-shadow: 5px 5px 5px rgba(97, 97, 199, 0.664);
+    
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Open sans', sans-serif;
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+#rightBox{
+    margin-left: 1px;
+    padding: 20px;
+    border-radius: 10px;
+    border-style: outset;
+    border-color: rgba(97, 97, 199, 0.664);
+    box-shadow: 5px 5px 5px rgba(97, 97, 199, 0.664);
+    
+
+}
+
+
+header{
+    text-align: center;
+    background-color: var(--primary-color-darker);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 15px 0px;
+    border-style: none;
+    border-color: rgba(97, 97, 199, 0.664);
+    box-shadow: 5px 5px 5px rgba(97, 97, 199, 0.664);
+}
+
+form input, form label, form button {
+  display: block;
+  width: 100%;
+  
+}
+
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+form input:focus {
+  outline: 1px solid var(--primary-color);
+  
+}
+
+form button {
+  border: none;
+  background: var(--primary-color);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  height: 50px;
+  cursor: pointer;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+form button:hover {
+  background: rgb(255, 255, 255);
+  color: var(--primary-color-darker);
+  border-color: var(--primary-color-darker);
+  border: 2px solid rgb(25, 29, 82);
+
+}
+
+.paragrafo-resultado {
+    background: rgba(100, 192, 138, 0.945);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.bad {
+    background: rgb(173, 26, 26);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
